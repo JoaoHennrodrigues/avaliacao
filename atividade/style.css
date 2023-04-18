@@ -1,0 +1,131 @@
+header{
+    background: #4cef7d;
+}
+
+body{
+  background: #C5FFA8;
+}
+.caixa{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    font-family: Comic Sans MS;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#logo{
+width: 300px;
+}
+
+body{
+	
+
+}
+
+.dois{
+ text-align: center;
+  font-family: cursive;
+  color: black;
+  color: orange;
+  font-size: 40px;
+}
+
+
+#historia{
+font-size: 30px;
+font-family: Comic Sans Ms;
+color: orange;
+}
+
+#carro{
+   width:  100%;
+}
+#formulario{
+    font-family:'Courier New', Courier, monospace;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width:  50%;
+    border-radius: 25px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+form label, form legend{
+display: block;
+font-size: 0 0 20px;
+margin: 0 0 10px;
+
+}
+#camisa{
+    width: 147px;
+}
+#datsun{
+  width: 300px;
+}
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#bone{
+    width: 220px;
+}
+.produtos li{
+
+  text-align: center;
+  width: 40%;
+  vertical-align: top;
+  margin: 0 1 5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.produtos li:hover {
+  border-color: darkorange;
+}
+
+.produtos li:active {
+  border color: orange;
+}
+
+.produtosli:hover h2 {
+  font-size: 34px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+}
